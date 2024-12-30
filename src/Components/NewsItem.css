@@ -1,0 +1,41 @@
+.card {
+    max-width: 18rem; /* Width for all cards */
+    height: 25rem; /* Fixed height for uniform size */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space out content */
+  }
+  
+  .card-img-top {
+    height: 140px;
+    width: 275px;
+    object-fit: cover; /* Ensures the image fits nicely */
+    border-radius: 5px; /* Adds slight rounding to the corners */
+  }
+  
+  .card-body {
+    overflow: hidden; /* Prevents content from overflowing */
+    text-overflow: ellipsis; /* Adds ellipsis for overflowing text */
+    white-space: nowrap; /* Keeps text on a single line (optional) */
+  }
+  
+  .card-title {
+    font-size: 1rem; /* Adjust title font size */
+    height: 2.5rem; /* Fixed height for uniformity */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .card-text {
+    font-size: 0.9rem; /* Adjust text size */
+    height: 3rem; /* Fixed height for uniformity */
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .btn {
+    align-self: center;
+    margin-top: auto; /* Push the button to the bottom */
+  }
+  
